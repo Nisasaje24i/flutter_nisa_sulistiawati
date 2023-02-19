@@ -1,0 +1,19 @@
+https://cobalt-bike-c9e.notion.site/Code-Competence-1-2eb55a74475044c4805e3c6e068b2c05 flutter 1
+https://cobalt-bike-c9e.notion.site/Code-Competence-2-64e33274b8b049319a9e28cf451e9ca3 flutter 2
+https://cobalt-bike-c9e.notion.site/Cara-Pengumpulan-2b2224b8ba0b4dd78774084a65c0154d resume
+https://ata.to/PengumpulanLinkGithub-Figma-Batch4 git
+
+
+Version control :
+melakukan pengolahan suatu file dari waktu ke waktu, mempermudah pengguna melakukan perubahan dan bisa melacak setiap pekerjaan yang orang lakukan.
+
+set relize : perubahan dalam satu tempat, distributif version control system : setiap org mempunyai salinan lokal. 
+
+git file, git commit, git push.
+
+resume - summary
+soal info mobile - summary
+
+
+memforking, cloning
+
