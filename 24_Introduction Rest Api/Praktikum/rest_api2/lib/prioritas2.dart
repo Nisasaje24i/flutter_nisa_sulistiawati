@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:http/http.dart' as http;
 
-class Home extends StatelessWidget {
+class PrioritasDua extends StatelessWidget {
   final String gambarUrl = "https://avatars.dicebear.com/api/:style/:seed.svg";
 
   Future<String> fetchAvatar(
       {required String style, required String seed}) async {
     var url = gambarUrl.replaceAll(':style', style).replaceAll(':seed', seed);
     var response = await http.get(Uri.parse(url));
-    if (response.statusCode == 200) {
+    if (response.statusCode == 100) {
       return response.body;
     } else {
       throw Exception('Gagal memuat gambar');

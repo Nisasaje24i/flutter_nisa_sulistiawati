@@ -19,6 +19,6 @@ void editData() async {
     Response response = await dio.put(url, data: dataEdit);
     print(response);
   } catch (e) {
-    print("Error occurred: $e");
+    print("Error: $e");
   }
 }

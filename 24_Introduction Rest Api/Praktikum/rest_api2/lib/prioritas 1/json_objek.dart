@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:http/http.dart' as http;
+
 import 'package:dio/dio.dart';
 
 class Contact {
@@ -19,11 +19,11 @@ class Contact {
 }
 
 void main() async {
-  final url = Uri.parse(
-      'https://my-json-server.typicode.com/hadihammurabi/flutter-webservice/contacts/2');
+  final url =
+      'https://my-json-server.typicode.com/hadihammurabi/flutter-webservice/contacts/2';
 
-  final response = await http.get(url);
-  final json = jsonDecode(response.body);
+  final response = await Dio().get(url);
+  final json = response.data;
 
   final contact = Contact.fromJson(json);
 
